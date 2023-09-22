@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tashmaree</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viweport" content="width=device-width, initial-scale=1.0">
+
+    <!-- online get font from https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+    <!-- online get bars from stackflow or https://fontawesome.com/icons/bars?f=classic&s=solid -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    </head>
+    <body>
+
+    <!-- Start Header -->
+    <header>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>    
+        </nav>
+
+
+    </header>
+    <!-- End Header -->
+    <!-- Start ContactPage -->
+    <div class="banner-contact">
+        <div class="logo">
+            <img width="150px" src="Images/logo/removal.png">
+        </div>
+
+        <div class="text-block">
+            <h1>Contact Us</h1>
+            <p>Contact our amazing support</p>
+        </div>
+
+    </div>
+
+    <h1 class="heading">Contact us here </h1>
+
+    <div class="row p40">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <h1>Contact us</h1>
+                    <h3>Email: info@mywebsite.com</h3>
+                    <h3>Phone: +92000000000</h3>
+                    <h3>Address: My office address</h3>
+                </div>
+                <div class="col-6">
+                    <form method="" action="">
+                        <label>Full Name:</label>
+                        <input name="fullname" placeholder="Full Name" type="text">
+                        <label>Email:</label>
+                        <input name="email" placeholder="Email" type="text">
+                        <label>Phone No:</label>
+                        <input name="phone" placeholder="Phone Number" type="text">
+                        <label>Message:</label>
+                        <textarea col="100%" rows="20" name="message" >Type your message</textarea>
+                        <input type="submit" value="Submit">
+                    </form>        
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+    <!-- End ContactPage -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="row">
+            <div class="container">
+                <div class="col-3" >
+                    <h3>Information</h3>
+                    <ul class="footer-menu">
+                        <li>Ecomerce marketing places</li>
+                        <li>Walmart App Services</li>
+                        <li>Amazone Breakthrough</li>
+                        <li>Shopify Merchant</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>About us</h3>
+                    <ul class="footer-menu">
+                        <li>First menu</li>
+                        <li>Second menu</li>
+                        <li>Third menu</li>
+                        <li>Fourth menu</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>Services</h3>
+                    <ul class="footer-menu">
+                        <li>Ecomerce Website Ranking</li>
+                        <li>Help & Support</li>
+                        <li>App Customer Support</li>
+                        <li>Custom Printing & Labelling</li>
+                        <li>Packing Your Products</li>
+                        <li>Delivery</li>
+                        <li>Website Development</li>
+                        <li>E-Commerce</li>
+                        <li>Marketing</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>Contact us</h3>
+                    <ul class="footer-menu">
+                        <li>First menu</li>
+                        <li>Second menu</li>
+                        <li>Third menu</li>
+                        <li>Fourth menu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+ 
+    <!-- End Footer -->
+
+    <!-- Start Copyright -->
+    <div class="copyright">
+        <p>Copyright &copy; 2023 | Tashmaree.pk</p>
+
+    </div>
+
+
+
+
+
+    <!-- End Copyright -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.left= "0px"; 
+        }
+        function hideMenu() {
+            navLinks.style.left= "-200px";
+        }   
+    </script>
+    </body>
+</html>
