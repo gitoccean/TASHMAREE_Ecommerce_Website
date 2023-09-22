@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Tashmaree</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta name="viweport" content="width=device-width, initial-scale=1.0">
+
+    <!-- online get font from https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet">
+
+    <!-- online get bars from stackflow or https://fontawesome.com/icons/bars?f=classic&s=solid -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    </head>
+    <body>
+
+    <!-- Start Header -->
+    <header>
+        <nav>
+            <div class="nav-links" id="navLinks">
+                <i class="fas fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="team.html">Team</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact us</a></li>
+
+                </ul>
+            </div>
+            <i class="fas fa-bars" onclick="showMenu()"></i>    
+        </nav>
+
+
+    </header>
+    <!-- End Header -->
+    <!-- Start AboutPage -->
+    <div class="banner-about">
+        <div class="logo">
+            <img width="150px" src="Images/logo/removal.png">
+        </div>
+
+        <div class="text-block">
+            <h1>About Us</h1>
+        </div>
+
+    </div>
+    <div class="row p40">
+        <div class="container">
+            <div class="col-6">
+                <img src="Images/blog/walmartmember.png" class="p6" class="img-responsive">
+            </div>
+            <div class="col-6">
+                <h2>Passion</h2>
+                <p>At our eCommerce services hub, we're dedicated to revolutionizing your online business. With a passion for technology and a keen understanding of market dynamics, we offer tailored solutions to propel your venture forward. Our commitment is to empower you with the tools and expertise needed for success in the ever-evolving eCommerce landscape. Trust us to amplify your digital footprint and provide an exceptional online shopping journey for your customers.</p>
+                <br><a href="contact.html" class="btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    <div class="row p40">
+        <div class="container">
+            <div class="col-12">
+                <h2>About us</h2>
+                <p>Welcome to Tashmaree, a pioneer in eCommerce services! We pride ourselves on being the driving force behind your online success. With years of industry expertise and a team of dedicated professionals, we craft tailored solutions to meet your unique eCommerce needs. Our mission is to empower businesses, from startups to enterprises, to flourish in the digital realm. We blend creativity, innovation, and technology to build captivating eCommerce platforms that capture your brand essence and enthrall your customers.<br>
+                    <br>At Tashmaree, we understand the critical elements that make an eCommerce venture thrive - seamless user experience, secure transactions, and a visually appealing interface. Our experts work diligently to create websites and mobile apps that not only look stunning but also function flawlessly. We prioritize customer satisfaction and assist in building trust through exceptional service and support.<br>                    
+                    <br>Transparency, integrity, and collaboration are at the core of our values. We believe in establishing strong partnerships with our clients, understanding their vision, and working together to achieve extraordinary results. Your success is our success, and we are committed to going the extra mile to ensure that your eCommerce journey is nothing short of remarkable.<br>                    
+                    <br>Join hands with Tashmaree, where innovation meets dedication. Let's embark on a transformative eCommerce journey, where your business reaches new heights, and your customers experience the best that online shopping has to offer.</p>
+                <br><a href="contact.html" class="btn-secondary">Contact Us</a>
+            </div>
+        </div>
+    </div>
+    
+    <!-- End AboutPage -->
+    <!-- Start Footer -->
+    <footer>
+        <div class="row">
+            <div class="container">
+                <div class="col-3" >
+                    <h3>Information</h3>
+                    <ul class="footer-menu">
+                        <li>Ecomerce marketing places</li>
+                        <li>Walmart App Services</li>
+                        <li>Amazone Breakthrough</li>
+                        <li>Shopify Merchant</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>About us</h3>
+                    <ul class="footer-menu">
+                        <li>First menu</li>
+                        <li>Second menu</li>
+                        <li>Third menu</li>
+                        <li>Fourth menu</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>Services</h3>
+                    <ul class="footer-menu">
+                        <li>Ecomerce Website Ranking</li>
+                        <li>Help & Support</li>
+                        <li>App Customer Support</li>
+                        <li>Custom Printing & Labelling</li>
+                        <li>Packing Your Products</li>
+                        <li>Delivery</li>
+                        <li>Website Development</li>
+                        <li>E-Commerce</li>
+                        <li>Marketing</li>
+                    </ul>
+                </div>
+                <div class="col-3">
+                    <h3>Contact us</h3>
+                    <ul class="footer-menu">
+                        <li>First menu</li>
+                        <li>Second menu</li>
+                        <li>Third menu</li>
+                        <li>Fourth menu</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+ 
+    <!-- End Footer -->
+
+    <!-- Start Copyright -->
+    <div class="copyright">
+        <p>Copyright &copy; 2023 | Tashmaree.pk</p>
+
+    </div>
+
+
+
+
+
+    <!-- End Copyright -->
+
+    <script>
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu() {
+            navLinks.style.left= "0px"; 
+        }
+        function hideMenu() {
+            navLinks.style.left= "-200px";
+        }   
+    </script>
+    </body>
+</html>
