@@ -1,0 +1,1 @@
+in this websites, there is a main drawback about images, images used in this websites is not good in pixels and not in quality wise.but one thing is that all images are adjusted to their themes and required places.
